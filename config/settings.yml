@@ -1,0 +1,12 @@
+plugins:
+  literatecomputing_notice_enabled:
+    default: true
+    client: true
+    hidden: true
+  lc_show_header:
+    default: true
+    client: true
+    hidden: true
+  lc_hide_admin_list:
+    default: pfaffman
+    client: true
