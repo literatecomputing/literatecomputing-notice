@@ -6,7 +6,8 @@ plugins:
   lc_show_header:
     default: true
     client: true
-    hidden: true
+    hidden: false
   lc_hide_admin_list:
     default: pfaffman
     client: true
+    hidden: true

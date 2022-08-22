@@ -10,6 +10,10 @@
 enabled_site_setting :literatecomputing_notice_enabled
 
 after_initialize do
+  SiteSetting.literatecomputing_notice_enabled = true
+  DiscoursePluginRegistry.register_html_builder("server:before-script-load") do
+    "<meta name=\"image_source\" content=\"#{I18n.t("js.literatecomputing_notice.warning_content")}\">"
+  end
   puts "initializing literatecomputing_notice"
-  Discourse::VERSION::STRING = "this is bananas "
+  # TODO: move this text to locale
 end

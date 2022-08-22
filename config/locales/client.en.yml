@@ -1,4 +1,12 @@
 en:
   js:
     literatecomputing_notice:
-      placeholder: placeholder
+      unsupported_install: |
+        This installation is supported only at dashboard.literatecomputing.com. 
+        Do not ask for support at meta.discourse.org.
+      warning_content: Docker image created by Literate Computing, LLC. 
+        Do not ask for support at meta.discourse.org. 
+        See https://dashboard.literatecomputing.com/pub/lc-docker-images for more information.
+      warning_header: |
+        This installation uses a docker container provided and maintained by <a href="https://www.literatecomputing.com/">Literate Computing, LLC</a>.
+        For support, please see <a href="https://dashboard.literatecomputing.com/pub/lc-docker-images">this page.</a>

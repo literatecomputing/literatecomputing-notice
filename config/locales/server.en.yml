@@ -1,1 +1,7 @@
 en:
+  site_settings:
+    lc_show_header: |
+      Include Literate Computing Warning on all pages.
+      <br>By disabling this you acknowledge that you cannot get support from meta.discourse.org.
+      <br>No free support is available at this time.
+    lc_hide_admin_list: Not implemented
