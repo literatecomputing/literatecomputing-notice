@@ -14,6 +14,4 @@ after_initialize do
   DiscoursePluginRegistry.register_html_builder("server:before-script-load") do
     "<meta name=\"image_source\" content=\"#{I18n.t("js.literatecomputing_notice.warning_content")}\">"
   end
-  puts "initializing literatecomputing_notice"
-  # TODO: move this text to locale
 end
